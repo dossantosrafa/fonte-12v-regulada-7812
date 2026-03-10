@@ -189,7 +189,42 @@ Ferramentas utilizadas:
 
 ---
 
-# 11. Autor
+# 11. Função de Cada Componente
+
+J2 (Entrada)
+Conector onde é ligado o secundário do transformador, fornecendo tensão AC ao circuito.
+
+BR1 (Ponte retificadora)
+Converte a tensão AC em DC pulsante utilizando quatro diodos.
+
+C1 (1000µF)
+Capacitor de filtragem que reduz o ripple da tensão após a retificação.
+
+C2 (100nF)
+Capacitor de desacoplamento que ajuda a eliminar ruídos de alta frequência na entrada do regulador.
+
+U1 – 7812
+Regulador linear responsável por manter a saída estabilizada em 12V DC.
+
+C3 (100nF)
+Capacitor de estabilização da saída do regulador, evitando oscilações e ruídos.
+
+R1 (100Ω)
+Resistor limitador de corrente para proteger o LED.
+
+D1 (LED)
+Indicador visual de que a fonte está energizada.
+
+J1 (Saída)
+Conector onde é disponibilizada a tensão regulada de 12V DC.
+
+13. Observação Técnica
+
+O regulador 7812 necessita que a tensão de entrada seja maior que a tensão de saída. Normalmente são necessários aproximadamente 14V a 15V na entrada para garantir uma saída estável de 12V.
+
+---
+
+# 12. Autor
 
 Projeto desenvolvido para atividade acadêmica de Sistemas Embarcados.
 
