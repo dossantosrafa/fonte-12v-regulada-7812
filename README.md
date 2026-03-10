@@ -126,7 +126,7 @@ Essa saída pode ser utilizada para alimentar diversos circuitos eletrônicos.
 
 # 6. Layout da PCB
 
-![PCB](pcb_layout.png)
+![PCB](pcb.png)
 
 A placa foi projetada com dimensões:
 
