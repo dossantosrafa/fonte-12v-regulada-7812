@@ -39,16 +39,16 @@ O esquemático apresenta todos os componentes e conexões responsáveis pelo fun
 
 | Componente | Descrição                            |
 | ---------- | ------------------------------------ |
-| J2         | Conector de entrada do transformador |
-| BR1        | Ponte retificadora                   |
-| C1         | Capacitor eletrolítico 1000µF        |
-| C2         | Capacitor cerâmico 100nF             |
-| U1         | Regulador de tensão 7812             |
-| C3         | Capacitor cerâmico 100nF             |
-| R1         | Resistor 100Ω                        |
-| D1         | LED indicador                        |
-| J1         | Conector de saída                    |
-
+| J2         | Conector de entrada do transformador |Corrente alternada entra aqui 
+| BR1        | Ponte retificadora                   |converte corrente alternada em DC pulsante
+| C1         | Capacitor eletrolítico 1000µF        |filtra tensao reduzindo ripple
+| C2         | Capacitor cerâmico 100nF             |remove ruidos alta frequencia
+| U1         | Regulador de tensão 7812             |tensao entra aqui e fica estabilizada em 12V
+| C3         | Capacitor cerâmico 100nF             |esse capacitor melhora a estabilidade de saida que veio do regulador de 12V
+| R1         | Resistor 100Ω                        |O resistor limita a corrente para o LED não queimar.
+| D1         | LED indicador                        |LED indica funcionamento e a tensão regulada sai pelo conector J1.
+| J1         | Conector de saída                    |Saida 12V DC e GND
+ 
 ---
 
 # 5. Funcionamento do Circuito
