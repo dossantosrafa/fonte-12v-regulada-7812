@@ -37,32 +37,17 @@ O esquemático apresenta todos os componentes e conexões responsáveis pelo fun
 
 # 4. Componentes Utilizados
 
-| Componente | Descrição                            |
-| ---------- | ------------------------------------ |
-| J2         | Conector de entrada do transformador |Corrente alternada entra aqui 
-| BR1        | Ponte retificadora                   |converte corrente alternada em DC pulsante
-| C1         | Capacitor eletrolítico 1000µF        |filtra tensao reduzindo ripple
-| C2         | Capacitor cerâmico 100nF             |remove ruidos alta frequencia
-| U1         | Regulador de tensão 7812             |tensao entra aqui e fica estabilizada em 12V
-| C3         | Capacitor cerâmico 100nF             |esse capacitor melhora a estabilidade de saida que veio do regulador de 12V
-| R1         | Resistor 100Ω                        |O resistor limita a corrente para o LED não queimar.
-| D1         | LED indicador                        |LED indica funcionamento e a tensão regulada sai pelo conector J1.
-| J1         | Conector de saída                    |Saida 12V DC e GND
-
-
- # 4. Componentes Utilizados
-
-| Componente | Descrição | Função no Circuito |
-|------------|-----------|--------------------|
-| J2 | Conector de entrada do transformador | Corrente alternada (AC) entra no circuito por aqui |
-| BR1 | Ponte retificadora | Converte corrente alternada (AC) em DC pulsante |
-| C1 | Capacitor eletrolítico 1000µF | Filtra a tensão e reduz o ripple |
-| C2 | Capacitor cerâmico 100nF | Remove ruídos de alta frequência |
-| U1 | Regulador de tensão 7812 | Estabiliza a tensão de saída em 12V |
-| C3 | Capacitor cerâmico 100nF | Melhora a estabilidade da saída do regulador |
-| R1 | Resistor 100Ω | Limita a corrente para proteger o LED |
-| D1 | LED indicador | Indica que o circuito está energizado |
-| J1 | Conector de saída | Fornece a saída 12V DC e GND |
+| Componente | Descrição | Função |
+| ---------- | --------- | ------ |
+| J2  | Conector de entrada do transformador | Corrente alternada entra aqui |
+| BR1 | Ponte retificadora | converte corrente alternada em DC pulsante |
+| C1  | Capacitor eletrolítico 1000µF | filtra tensao reduzindo ripple |
+| C2  | Capacitor cerâmico 100nF | remove ruidos alta frequencia |
+| U1  | Regulador de tensão 7812 | tensao entra aqui e fica estabilizada em 12V |
+| C3  | Capacitor cerâmico 100nF | esse capacitor melhora a estabilidade de saida que veio do regulador de 12V |
+| R1  | Resistor 100Ω | O resistor limita a corrente para o LED não queimar. |
+| D1  | LED indicador | LED indica funcionamento e a tensão regulada sai pelo conector J1. |
+| J1  | Conector de saída | Saida 12V DC e GND |
 ---
 
 # 5. Funcionamento do Circuito
